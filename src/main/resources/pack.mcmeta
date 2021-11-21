@@ -1,7 +1,6 @@
 {
   "pack": {
     "description": "CortexMod resources",
-    "pack_format": 7,
-    "_comment": ""
+    "pack_format": 7
   }
 }
