@@ -1,5 +1,6 @@
 package me.bigvirusboi.cortexmod;
 
+import me.bigvirusboi.cortexmod.init.BlockInit;
 import me.bigvirusboi.cortexmod.init.ItemInit;
 import net.minecraft.world.level.block.ComposterBlock;
 import net.minecraftforge.common.MinecraftForge;
@@ -20,6 +21,7 @@ public class CortexMod {
         bus.addListener(this::setup);
 
         // Here, we register items, blocks, entities, particles, biomes and more
+        BlockInit.BLOCKS.register(bus);
         ItemInit.ITEMS.register(bus);
 
         // Here, we register events

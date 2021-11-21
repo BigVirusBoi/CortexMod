@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "cortexmod:block/kody_block"
+    }
+  }
+}
